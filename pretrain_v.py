@@ -3,10 +3,9 @@ coding: utf-8
         Python 3.10.14 (main, Mar 21 2024, 16:24:04) [GCC 11.2.0] on linux
         torch 2.2.2+cu121
 Created on 2024-08-16
-@title: finetune_ldm.py
-@description: finetune the LDM (Latent Diffusion Model) model
-              MAE img: random mask blocks on image (square matrix)
-@author: <|Ronald B Liu|liu.ronald@icloud.com|>
+@title: pretrain_v.py
+@description: pretrain the VAE model with Voltage data in EIM format
+@author: <Ronald B Liu>
 @github: <https://github.com/RL-arch>
 @version: 0.1.0
 """

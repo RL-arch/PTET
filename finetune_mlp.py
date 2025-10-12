@@ -5,7 +5,7 @@ coding: utf-8
 Created on 2024-08-16
 @title: finetune_mlp.py
 @description: finetune the linear projection model with MLP
-@author: <|Ronald B Liu|liu.ronald@icloud.com|>
+@author: <Ronald B Liu>
 @github: <https://github.com/RL-arch>
 @version: 0.1.0
 '''
