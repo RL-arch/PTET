@@ -263,10 +263,10 @@ class CAE_Decoder(nn.Module):
             nn.Unflatten(1, (5, 12, 12))
         )
         self.conv_layers = nn.Sequential(
-            nn.Upsample(scale_factor=2, mode='nearest'),  # 尺寸翻倍
+            nn.Upsample(scale_factor=2, mode='nearest'),  
             nn.Conv2d(5, 5, kernel_size=3, padding=1),
             nn.ELU(),
-            nn.Upsample(scale_factor=2, mode='nearest'),  # 尺寸翻倍
+            nn.Upsample(scale_factor=2, mode='nearest'),  
             nn.Conv2d(5, 1, kernel_size=3, padding=1),
             nn.ELU()
         )
