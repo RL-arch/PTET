@@ -87,7 +87,7 @@ if __name__ == '__main__':
     
     # model = DeepVAE()
     # output = model(x)
-    # print(encoded.shape)  # 应输出torch.Size([1, 1, 48, 48])
+    # print(encoded.shape)  # expected torch.Size([1, 1, 48, 48])
     
     #### main
     # Command-line arguments
