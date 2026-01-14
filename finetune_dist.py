@@ -270,7 +270,7 @@ if __name__ == "__main__":
 
     optimizer = optim.Adam(model.parameters(), lr=0.0001)
     scheduler = WarmupCosineAnnealingLR(optimizer, warmup_epochs=10, max_epochs=2000)
-    # 保持ReduceLROnPlateau用于在验证损失停滞时进一步调整学习率
+
     # keep ReduceLROnPlateau for further adjusting learning rate when validation loss stagnates
     scheduler_plateau = ReduceLROnPlateau(optimizer, 'min', patience=10, factor=0.5, verbose=True)
 
